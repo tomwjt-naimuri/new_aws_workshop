@@ -7,4 +7,4 @@ const app = new cdk.App();
 
 const testCdkStack = new AppCdkStack(app, 'test', {});
 
-const pipelineCdkStack = new PipelineCdkStack(app, 'pipeline-stack', {});
+const pipelineCdkStack = new PipelineCdkStack(app, 'pipeline-stack-2', {});
