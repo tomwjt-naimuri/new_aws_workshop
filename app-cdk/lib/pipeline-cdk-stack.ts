@@ -38,7 +38,7 @@ export class PipelineCdkStack extends Stack {
         actions: [
           new codepipeline_actions.CodeStarConnectionsSourceAction({
             actionName: 'GitHub',
-            owner: 'Naimuri',
+            owner: 'tomwjt-naimuri',
             repo: 'CICD_Workshop',
             output: sourceOutput,
             branch: 'main',
