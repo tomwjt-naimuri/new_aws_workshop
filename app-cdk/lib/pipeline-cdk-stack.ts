@@ -44,7 +44,7 @@ export class PipelineCdkStack extends Stack {
             repo: 'new_aws_workshop',
             output: sourceOutput,
             branch: 'main',
-            connectionArn: 'arn:aws:codeconnections:us-east-2:393724915111:connection/503898f3-bc7b-4c58-bb44-9eeb298234ee',
+            connectionArn: 'arn:aws:codeconnections:us-east-2:393724915111:connection/b97c124e-d37a-40f3-b349-93cfce80f801',
           }),
         ],
     });
