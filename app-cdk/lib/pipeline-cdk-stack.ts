@@ -30,7 +30,7 @@ export class PipelineCdkStack extends Stack {
       },
     });
 
-    // butts
+    // more butts
 
     const sourceOutput = new codepipeline.Artifact();
     const unitTestOutput = new codepipeline.Artifact();
