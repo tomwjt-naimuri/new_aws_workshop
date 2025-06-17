@@ -41,10 +41,10 @@ export class PipelineCdkStack extends Stack {
           new codepipeline_actions.CodeStarConnectionsSourceAction({
             actionName: 'GitHub',
             owner: 'tomwjt-naimuri',
-            repo: 'new_aws_workshop',
+            repo: 'cicd_workshop',
             output: sourceOutput,
             branch: 'main',
-            connectionArn: 'arn:aws:codeconnections:us-east-2:393724915111:connection/b97c124e-d37a-40f3-b349-93cfce80f801',
+            connectionArn: 'arn:aws:codeconnections:us-east-2:393724915111:connection/a71d3c9f-9add-4ad5-b850-f53c7708bde2',
           }),
         ],
     });
